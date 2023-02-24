@@ -58,7 +58,7 @@ document.getElementById("prev2").addEventListener("click", function dec(){
 
 function prev(){
     if(a<1){
-        breakme
+        breakme;
     }
     else
     document.getElementById("prev2").href="#s1-"+a;
@@ -81,7 +81,7 @@ document.getElementById("prev3").addEventListener("click", function dec(){
 
 function prev2(){
   if(b<1){
-      breakme
+      breakme;
   }
   else
   document.getElementById("prev3").href="#s2-"+b;
@@ -105,7 +105,7 @@ document.getElementById("prev4").addEventListener("click", function dec(){
 
 function prev3(){
   if(c<1){
-      breakme
+      breakme;
   }
   else
   document.getElementById("prev4").href="#s3-"+c;
